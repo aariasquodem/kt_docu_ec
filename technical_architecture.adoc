@@ -1,0 +1,50 @@
+= Technical Architecture
+
+== https://www.cvdvaccine.ec/[https://www.cvdvaccine.ec^,role=blue]
+
+=== Author: Pratipalsinh Jadeja
+
+=== Approval Signatures
+[cols=3*,options=header]
+|===
+|
+|Name
+|Status
+
+|BO
+|Luis Moreno
+|Approved
+
+|SCO
+|Ana Beltrán
+|Approved
+
+|PM
+|Jesús Romero
+|Approved
+
+|===
+
+
+=== Technical Infrastructure & Development Standards
+
+*Canvas Web Builder*
+
+*Existing System*
+
+* Existing system was also developed using HTML, CSS, JavaScript, jQuery and helix components imported from central repository (theme) in Edison Lite-Canvas.
+
+*Content deploy process*
+
+* Once a deployment is triggered, CANVAS builds and aggregates all website resources. It renders HTML, replaces links, copies static files and more on the backend. Once files are ready to be deployed, they are packaged into a zip file called a web artefact.
+Web artefacts are uploaded to S3 and a job is dispatched to the CANVAS-file-processor, which extracts all files and pushes them into the appropriate branch in the website repository. Edison Lite then automatically detects new code has been pushed up and publishes the changes to its platform.
+
+*CANVAS Stages*
+
+* Each CANVAS stage corresponds with an environment in which the content can be deployed. The diagram below illustrates those corresponding environments:
+
+image:https://canvas.pfizer.com/image/public/images/ERcv2qM84eol2hZUbDDuHMvDkQezLU9JpekuMpjX.png?w=1200&s=bd987c65dc7edebc99712e19db2f37e2[alt sample,width=auto,height=auto]
+
+*Proposed System*
+
+* The system shall develop in Edison Lite Platform.

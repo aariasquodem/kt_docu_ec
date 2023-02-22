@@ -1,0 +1,59 @@
+= Functional Requirements Specification
+
+== https://www.cvdvaccine.ec/[https://www.cvdvaccine.ec^,role=blue]
+
+=== Author: Pratipalsinh Jadeja
+
+=== Approval Signatures
+[cols=3*,options=header]
+|===
+|
+|Name
+|Status
+
+|BO
+|Luis Moreno
+|Approved
+
+|SCO
+|Ana Beltrán
+|Approved
+
+|PM
+|Jesús Romero
+|Approved
+
+|===
+
+
+=== Business Requirement Overview
+
+*SR#346918*- It’s a new site launch
+
+[cols=",,",]
+|===
+|Req # | SR # |Requirement Description
+
+|FR1 |*SR#346918* |This site is intended for Health Care Professionals
+
+|FR2 |*SR#346918* |Content updates
+|===
+
+
+*SR#349228*- Comirnaty Ecuador Updates (Modify External Websites)
+
+[cols=",,",]
+|===
+|Req # | SR # |Requirement Description
+
+|FR1 |*SR#349228* |Added new landing page that requires the health care professional authenticate by a code using microservices.
+
+|===
+
+=== Supporting References
+
+[cols=",",]
+|===
+|If, Any |
+||
+|===

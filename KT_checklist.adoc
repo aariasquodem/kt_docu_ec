@@ -1,0 +1,130 @@
+=== Complexity
+[cols=2*,options=header]
+|===
+|Application Level
+|Description
+|Complexity 1
+
+|" Simple Brochure-Ware, Information Presentation only
+- Simple Search
+- No interactivity features
+- Little or No custom coding"
+|Complexity 2
+|" Informational with request submissions
+- Advanced search features
+- Limited user registration (name, email)
+- Simple interactive tools like calculators
+|Complexity 3
+|"Informational, request submission handling
+- Advanced search
+- Advanced registration, password management,
+- interactive tools like discussions or chat
+- Custom modules developed"
+|Complexity 4
+|"Multiple internal and external information sources
+- Advanced/saved search
+- Advanced registration features
+- Complex interactions - order/payment, live chat help, mobile
+- Daily/ Weekly reminder
+- Complex multi-user type support"
+
+|===
+
+=== Site Info Lite
+[cols=3*,options=header]
+|===
+|
+|Details
+|Comments
+
+|SR No
+|346918
+|
+
+|Site Complexity Level
+|2
+|
+
+|Live site URL
+|https://www.cvdvaccine.ec/
+|https://canvas.pfizer.com/builder/website/7678
+
+|" Is the site Multilingual
+(en/sp/fr)"
+|No
+|
+
+|"Primary language"
+|Spanish
+|
+
+|Does the site capture User data
+(yes/No)
+|No
+|
+
+|Go live date (Site Launch)
+|13/04/22
+|
+
+|Go live date (OSS LATAM Maintenance)
+|30/09/22
+|
+
+|Company name
+|TCS
+|
+
+|Manager's name and contact details
+|Prajil Kolangara
+|
+
+|Tech lead's name and Contact details
+|Jay Agrawal
+|
+
+|Site Hosting(Drupal Legacy, Ed Custom, Drupal 9, Ed lite)
+|Edison Lite
+|
+
+|Platform Version (frame work eg: canvas, Hugo etc)
+|Canvas
+|
+
+|Omniture
+|EC HCP Prod CvdVaccine
+|
+
+|IE version
+|Internet Explorer has retired and is officially out of Microsoft support. Please refer https://blogs.windows.com/windowsexperience/2022/06/15/internet-explorer-11-has-retired-and-is-officially-out-of-support-what-you-need-to-know/
+|Get this detail from Testing team, It should be version no.
+
+|Chrome compatibility version
+|Maximum - 105, Minimum - 55
+|Get this detail from Testing team, It should be version no.
+
+|FF version
+|Maximum - 104, Minimum - 63
+|Get this detail from Testing team, It should be version no.
+
+|MS edge
+|
+|
+
+|Safari Version
+|
+|
+
+|"Is the CRP approved for the application? If yes share it with us" Description
+|Yes
+|
+
+|Start date
+|11/11/21
+|
+
+|End date
+|12/18/21
+|
+
+|===
