@@ -46,7 +46,7 @@
 |===
 |Req # | SR # |Requirement Description
 
-|FR1 |*SR#349228* |Added new landing page that requires the health care professional authenticate by a code using microservices.
+|FR1 |*SR#349228* |Added new landing page that requires the health care professional authenticate by a code using DIN login microservices.
 
 |===
 

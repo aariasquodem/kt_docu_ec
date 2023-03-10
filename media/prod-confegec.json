@@ -1,0 +1,8 @@
+{ 
+
+    "formUrl": "https://ms-forms-service-production.digitalpfizer.com/api/v1/forms",
+    
+    
+    "configToken": "prod_cvdvaccines_ec-form-din" 
+    
+}
